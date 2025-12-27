@@ -3,13 +3,13 @@
 This project analyzes the impact of physical diamond attributes (the 4Cs and dimensions) on market price and implements predictive modeling using high-performance regression algorithms.
 
 ## Overview
-Diamonds are reliable investment assets due to their low market volatility. This project determines how features like Carat, Cut, Clarity, Color, and physical dimensions (x, y, z, depth, table) affect market valuation.
+Diamonds are reliable investment assets due to their low market volatility. This project determines how features like Carat, Cut, Clarity, Color, and physical dimensions (x, y, z, depth) affect market valuation.
 
 ## Dataset
-[cite_start]The project utilizes a dataset of **53,943 observations** with 11 features[cite: 1, 4]:
-- [cite_start]**Physical Attributes:** Carat, x, y, z, depth, table[cite: 4].
-- [cite_start]**Categorical Features:** Cut (Fair to Ideal), Color (J to D), and Clarity (I1 to IF)[cite: 4].
-- [cite_start]**Target Variable:** Price (USD)[cite: 4].
+The project utilizes a dataset of **53,943 observations** with 11 features:
+- **Physical Attributes:** Carat, x, y, z, depth,.
+- **Categorical Features:** Cut (Fair to Ideal), Color (J to D), and Clarity (I1 to IF).
+- **Target Variable:** Price (USD).
 
 ## Methodology
 The implementation follows a comprehensive data science pipeline:
